@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" type="text/css" href="master.css">
-</head>
-<body>
-  <div class="timer">
-    <label for="minutes">Enter minutes: </label>
-    <input type="number" id="minutes" min="1" step="1">
-    <button id="start">Start</button>
-    <button id="stop">Stop</button>
-    <button id="reset">Reset</button>
-    <h1 id="countdown">00:00</h1>
-  </div>
+  <head>
+    <link rel="stylesheet" type="text/css" href="master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="timer">
+      <label for="minutes">Enter minutes: </label>
+      <input type="number" id="minutes" min="1" step="1" />
+      <h1 id="countdown">00:00</h1>
+      <div class="btns">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+      </div>
+    </div>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
